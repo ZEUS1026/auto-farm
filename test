@@ -1,3 +1,25 @@
-_G.UserID = 1356396278
-_G.WebHook = httpsdiscord.comapiwebhooks10547397574034760282fuuBz8vjqENpz-RtO2oZXH4t_xsOUAxuW95cN2XP1IsuO5mVd-DvGnQu29j1hBFXRXE
-loadstring(gameHttpGet(httpsraw.githubusercontent.comSilenceScriptsPsxScripts.LuamainPsxAutofarm.true))()
+Uncaught exception:
+[string "bundle:deps/require.lua"]:279: No such module '/home/runner/WORKIN-OBF/obfuscated/zeus.2006' in 'bundle:/main.lua'
+module '/home/runner/WORKIN-OBF/obfuscated/zeus.2006' not found:
+	no field package.preload['/home/runner/WORKIN-OBF/obfuscated/zeus.2006']
+	no file './/home/runner/WORKIN-OBF/obfuscated/zeus/2006.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3//home/runner/WORKIN-OBF/obfuscated/zeus/2006.lua'
+	no file '/usr/local/share/lua/5.1//home/runner/WORKIN-OBF/obfuscated/zeus/2006.lua'
+	no file '/usr/local/share/lua/5.1//home/runner/WORKIN-OBF/obfuscated/zeus/2006/init.lua'
+	no file './/home/runner/WORKIN-OBF/obfuscated/zeus/2006.so'
+	no file '/usr/local/lib/lua/5.1//home/runner/WORKIN-OBF/obfuscated/zeus/2006.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './/home/runner/WORKIN-OBF/obfuscated/zeus.so'
+	no file '/usr/local/lib/lua/5.1//home/runner/WORKIN-OBF/obfuscated/zeus.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'error'
+	[string "bundle:deps/require.lua"]:279: in function 'require'
+	[string "bundle:/main.lua"]:128: in function <[string "bundle:/main.lua"]:20>
+stack traceback:
+	[C]: in function 'error'
+	[string "bundle:/deps/utils.lua"]:41: in function 'assertResume'
+	[string "bundle:/init.lua"]:52: in function <[string "bundle:/init.lua"]:47>
+	[C]: in function 'xpcall'
+	[string "bundle:/init.lua"]:47: in function 'fn'
+	[string "bundle:deps/require.lua"]:310: in function <[string "bundle:deps/require.lua"]:266>
